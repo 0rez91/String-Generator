@@ -1,0 +1,6 @@
+[
+	{
+		"caption": "Generate password",
+		"command": "patternpassword"
+	}
+]
