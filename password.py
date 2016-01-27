@@ -1,10 +1,10 @@
 import sublime, sublime_plugin
 from random import randrange
-class PatternPasswordCommand(sublime_plugin.TextCommand):
+class GenerateStringCommand(sublime_plugin.TextCommand):
 	def run(self, edit):
-		self.view.window().show_input_panel("Input Pattern", "Cvcvcv99", self.generate_pass, None, None)
+		self.view.window().show_input_panel("Input Pattern", "Cvcvcv99", self.generate_string, None, None)
 
-	def generate_pass(self, user_input):
+	def generate_string(self, user_input):
 		chars = "!@#$%^&*_-+=|/?:;<>~"
 		letter_upper = "BCDFGHJKLMNPQRSTVWXYZ"
 		letter_lower = "bcdfghjklmnpqrstvwxyz"

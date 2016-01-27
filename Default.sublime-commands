@@ -1,6 +1,6 @@
 [
 	{
-		"caption": "Pattern Password",
-		"command": "pattern_password"
+		"caption": "Generate string",
+		"command": "generate_string"
 	}
 ]
