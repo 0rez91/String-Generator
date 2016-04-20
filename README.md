@@ -11,4 +11,4 @@ In the command bar insert the pattern to generate string:
 >V: Upper Vowel
 >v: Lower Vowel
 >0: Digits 0-9
->#: Random chart between (!@#$%^&*_-+=|/?:;<>~)
+>\#: Random chart between (!@#$%^&*_-+=|/?:;<>~)
